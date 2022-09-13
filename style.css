@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+body {
+    background-color: black;
+    color: rgb(197, 188, 188) ;
+
+font-size: 18px;
+font-weight: normal;
+font-family: 'Roboto', sans-serif;
+
+font: normal 18px 'Roboto', sans-serif;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(207, 207, 207);
+}
+
+a:visited {
+    color: rgb(207, 207, 207);
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.batman {
+    width: 350px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(170, 16, 16, 0.438);
+
+}
+
+.joker 
+{
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: none;
+}
+
+.Scarecrow
+{
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: none;
+}
+
+.face2
+{
+    width: 280px;
+    background-size: cover; 
+    background-attachment: fixed;
+    border-radius: 10%;
+    box-shadow: none;
+}
+
+.ras
+{
+    width: 295px;
+    border-radius: 10%;
+    box-shadow: none;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display:block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(172, 167, 160);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform: none;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.full {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 3%;
+}
+/*
+.abilities {
+    background: darkslategrey;
+    padding: 0px 20px;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+.box-model > div {
+    float: left;
+    background:rgba(168, 18, 18, 0.507);
+    height: 200px;
+    width: 25%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}*/
+
+.bg-enemies {
+    background: rgb(119, 9, 9);
+    text-align: center;
+    }
+
+.bg-awards {
+    background: rgb(119, 9, 9);
+    }
+.bg-awards h2 {
+    text-align: center;
+}
+
+.bg-first {
+    background: rgb(119, 9, 9);
+    }
+.bg-first h2 {
+    text-align: center;
+}
+
+.bg-blue {
+    background: rgb(119, 9, 9);
+    }    
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+}
+
+.list li {
+    color:rgb(185, 201, 98)
+}
+
+.enemies 
+{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: black;
+}
+
+.link-list {
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 15px 0px 10px 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 500px;
+}
+
+.btn {
+    color: black;
+    padding: 15px 20px;
+    background: black;
+    color: white;
+    border: none;
+    font-family: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    opacity: 0.9;}
+
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+/*.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: rgb(119, 9, 9);
+    opacity: 70%;
+}*/
+
+.awards
+{
+    border-spacing: 4px;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 0.5%;
+    border-style:inherit;
+    margin: auto;
+    
+}
+.awards th 
+{
+background: rgb(87, 21, 21);
+}
+
+.awards td 
+{
+    background: rgb(87, 21, 21);
+}
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
